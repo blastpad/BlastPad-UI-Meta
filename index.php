@@ -1,0 +1,1 @@
+<?php require_once( "asset/blueprint/blastpad_ui/index.php" ); ?>

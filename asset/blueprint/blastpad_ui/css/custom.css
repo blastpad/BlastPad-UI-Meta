@@ -1,0 +1,50 @@
+body {
+	color: #666666;
+	font-family: "Montserrat", Helvetica, Arial;
+}
+
+p {
+	color: #333333;
+	font-size: 1.2em;
+}
+
+.bp_logo,
+.bp_brand {
+	color: #f50057;
+	font-family: "Sofia", Helvetica, Arial;
+}
+
+h1, h2, h3, h4 {
+	color: #f50057;
+}
+
+h2, h3, h4 {
+	line-height: 3em;
+}
+
+button, input[ type="submit" ], input[ type="button" ] {
+	/*border-color: #f50057;*/
+	color: #f50057;
+}
+
+.bp_call_to_action {
+	background: #f50057;
+}
+
+a {
+	color: #f50057;
+}
+
+code {
+	font-family: "Inconsolata", Courier, Monaco, monospace;
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.bp_snippet {
+	margin: 1em;
+	padding: 1em;
+}
