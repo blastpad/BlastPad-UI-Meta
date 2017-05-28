@@ -26,7 +26,7 @@ Check out the contributing.md file for more details.
 
 # Credits
 Honey Silvas (@honeysilvas)
-
+Parthipan Natkunam (@Parthipan-Natkunam)
 (Add your name here by contributing.)
 
 
