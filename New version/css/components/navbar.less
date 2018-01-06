@@ -1,0 +1,33 @@
+@import url('variables.less');
+
+.home_nav_list {
+    color: #fefefe;
+    vertical-align: middle;
+    font-family: @skranji-font;
+    padding: 10px 4px;
+    margin: 10px 4px;
+
+    &:hover, &:focus{
+    	background: @nav-focus-bg;
+    }
+}
+
+#home_menu,#general_nav {
+    line-height: 5em;
+}
+
+#home_nav {
+    top: 0;
+    padding: 10px 2px 5px;
+    background: transparent;
+}
+
+#general_nav{
+	background-color: @general-nav-bg;
+	color: @white;
+	.bp_logo{
+	 	a img{
+	 		padding-top: @logo-pad;
+	 	}
+	}
+}

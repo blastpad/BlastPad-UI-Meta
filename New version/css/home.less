@@ -1,0 +1,106 @@
+
+
+@import url('components/variables.less');
+@import url('components/navbar.less');
+
+/*Typography*/
+
+
+h2,
+h3,
+h4 {
+    line-height: @heading-line-height;
+}
+
+button,
+input[ type="submit"],
+input[ type="button"] {
+    color: @action-color;
+}
+
+.bp_call_to_action {
+    background: @action-color;
+}
+
+a {
+    color: @action-color;
+}
+
+
+/*Redesign changes*/
+
+body {
+    background: @body-bg;
+    background-size: cover;
+    font-family: @skranji-font;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.bp_center_justify {
+    margin: -94px auto;
+}
+
+.main_content {
+    margin-top: 10em;
+}
+
+#tag_line,.special-txt{
+    cursor: default;
+}
+#tag_line {
+    color: @white;
+    font-size: @base-font-size;
+}
+
+.special-txt {
+    color: #e6e5e3;
+    text-shadow:  1px 1px 0px @txt-shadow-color;
+    font-size: @base-font-size + 0.2em;
+    -webkit-font-smoothing: antialiased;
+}
+.normal-btn,.special-btn{
+   color:@white;
+   cursor: pointer;  
+   border-radius: 50px;
+   margin: 10px;
+}
+.normal-btn{
+    border: 2px solid #309292;  
+    background: #2FB8AC;  
+}
+.normal-btn:hover,.normal-btn:focus{
+    background: #37d0c2;
+}
+.special-btn{
+    border-color: #FD0A54;
+    background: #FF0D51;
+}
+.special-btn:hover,.special-btn:focus{
+    background: #f92c66;
+}
+
+@media screen and (max-width:669px) {
+    .lg_only {
+        display: none;
+    }
+    .sm_only {
+        display: inline-block;
+    }
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (min-width: 670px) {
+    .sm_only {
+        display: none;
+    }
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}
