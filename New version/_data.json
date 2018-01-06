@@ -1,0 +1,10 @@
+{
+  "index": {
+    "pageTitle": "Home",
+    "layout": "_homeLayout"
+  },
+  "getStarted":{
+  	"pageTitle": "Getting Started",
+  	"layout": "_generalLayout"
+  }
+}
